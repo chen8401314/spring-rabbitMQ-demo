@@ -1,0 +1,12 @@
+server:
+  port: 8052
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  rabbitmq:
+    host: 192.168.5.78
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
